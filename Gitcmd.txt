@@ -1,0 +1,28 @@
+git init
+git status
+git config --global user.name
+git config --global user.email
+git checkout <filename(tab+spacebar)>
+git amend--user (NOT CONFIRMED )
+git add . ---> all files to stage
+git add -A  same as above
+git checkout -f  (all conetent go to prev commit)
+git commit -m "info /msg with commit"
+git log 
+clear (clear terminal)
+press i for writing with wim editor
+esc :wq enter (to close vim editer)
+git chekout -p (go to prv changes)
+git log  -p -2 (last two commit )
+git diff (diff betw working and staging)
+git commit -a -m "commit msg"  (aadding and commiting in one cmd, POV;- file shall be aaded manually in past)
+git rm --cached <filename>
+git rm <filename>  (delete file, need to commit here after)
+git status -s (shows summury )
+git branch <branchname>  (creats branch )
+git branch   (shows all brach with your current branch in green colour)
+git merge <branchname> (you shoukd be in that branch where you want another branch to be merged)
+git checkout -b <branchname> (it will create and take you in that branch)
+git remote add origin <url from git acc repo https://github.com/mrvivek15/MyGITLearningREPO.git>
+git remote -v (will show you url list for fetch and push)
+git push -u origin <master/branchname> (push a local git branch to a remote server)
